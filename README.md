@@ -1,3 +1,4 @@
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/momo54181/mo/starcharts.svg)](https://starchart.cc/momo54181/mo/starcharts)
+[![Stargazers over time](https://starchart.cc/caarlos0/starcharts.svg)](https://starchart.cc/caarlos0/starcharts)
+      
