@@ -66,7 +66,7 @@ function onInitTask(task, user, file)
 	
 	
 	local user1 = ("mom") 
-	local requesturl="http://pan.moudio.top/mom.php?"
+	local requesturl="https://moserver.ga/api/mom.php?"
 	--local requesturl=url1.."?"
 
 	local data = ""
