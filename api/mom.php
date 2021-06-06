@@ -1,15 +1,15 @@
 <?php
-$set=0;//设置公告是否开启 1开启 0关闭
-$gg="测试公告";//测试公告
+$set=1;//设置公告是否开启 1开启 0关闭
+$gg="莫莫";//测试公告
 $passkey="237535";//为了防止注入这里限制到了10位
 $mode=1;//0为次数模式 1为流量模式 (单位MB)
 
 
-$vip_bduss = array("i0wQWNSNTBGUHNFLU9lN0NodVdYSlJqSy1NM3B-OWRxODg5R2kwUjV5MUJ5dUpnRVFBQUFBJCQAAAAAAAAAAAEAAAA6k8DOb2vEz9H0xvuztbT7v-4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEE9u2BBPbtgf");
+$vip_bduss = array("kRMZkRNTW10UGpVLXZ0MVRMSWtYT2xmS3Z1dzdwNDM5YWV1cjNVY01FNm45TTlnRUFBQUFBJCQAAAAAAAAAAAEAAAArUoGtztK6w7e9t8W3vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKdnqGCnZ6hgM");
 //$ua1="netdisk;P2SP;2.2.60.26";
 //$ua1="netdisk;2.2.51.6;netdisk;10.0.63;PC;android-android;QTP/1.0.32.2";
 $ua1="netdisk;P2SP;3.0.0.3;netdisk;11.5.3;PC;PC-Windows;android-android;11.0;JSbridge4.4.0";
-$xiancheng="16";//最大线程
+$xiancheng="64";//最大线程
 
 
 //创建数据 http://127.0.0.1/api/Request.php?method=createdb
