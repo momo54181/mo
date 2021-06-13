@@ -5,7 +5,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
   function insert() {
     var pandownload = conf.pandownload || {}
         $(".gitbook-link").text(pandownload.icp);
-        $(".gitbook-link").attr('href', 'http://beian.miit.gov.cn');
+        $(".gitbook-link").attr('href', 'https://www.moudio.top');
 	var timestamp = Math.round(new Date / 1000);
 	var a = $("a[href='" + pandownload.dlink + "']");
 	a.click(function () { window.open(pandownload.dlink + '?t=' + timestamp + '&key=' + md5('15a4cd3e'+timestamp)); });
